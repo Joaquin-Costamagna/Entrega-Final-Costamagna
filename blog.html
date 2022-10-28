@@ -4,20 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blog - Tesla</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
+  </head>
+  
     <body class="borde_arriba bg-dark">
       <div class="container-fluid espaciado_header">
         <div class="row">
               <div class="col-md-1 d-flex align-items-end">
-                  <img src="images/solo t negra.png" alt="" class="imgh1 img-fluid">
+                  <img src="images/solo t negra.png" alt="" class="imgh1 img-fluid desaparecer">
               </div>
 
-              <div class="col-md-4 d-flex align-items-end">
+              <div class="col-md-4 d-flex align-items-md-end">
                   <img src="images/tesla-logo-solo-letras.png" alt="" class="imgh2 img-fluid">
               </div>
-              <div class="col d-flex align-items-end justify-content-end">
+              <div class="col-md-4 offset-md-3 d-flex align-items-end justify-content-center">
                 <img src="images/tesla negrodef.png" alt="" class="animate__fadeInRightBig animate__animated img-fluid imgh3">
               </div>
         </div>
@@ -25,19 +26,19 @@
             <div class="cont_links">
               <ul class="nav links gradText col-md-6 offset-md-6">
                 <li class="nav-item">
-                  <a class="nav-link links link-light" href="index.html">Inicio</a>
+                  <a class=" example nav-link links link-light" href="index.html">Inicio</a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link links link-light" href="Quienes somos.html">Quienes somos</a>
-                </li> -->
                 <li class="nav-item">
-                  <a class="nav-link links link-light" href="blog.html">Blog</a>
+                  <a class="example nav-link links link-light" href="Quienes somos.html">Quienes somos</a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link links link-light" href="productos.html">Productos</a>
-                </li> -->
                 <li class="nav-item">
-                  <a class="nav-link links link-light" href="contacto.html">Contacto</a>
+                  <a class="example nav-link links link-light" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="example nav-link links link-light" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="example nav-link links link-light" href="contacto.html">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -51,24 +52,24 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/roaster presentacion.png" class="d-inline-block w-50 imgc" alt="...">
-                <div class="carousel-caption d-none d-md-block" style="color: black;">
-                  <h5>Ya empezo la reserva del nuevo tesla "Roadster"</h5>
-                  <p>La reserva ya esta disponible por $43.000 euros y a la venta saldra recien en Julio 2023</p>
+                <img src="images/roaster presentacion.png" class="d-inline-block w-50 imgc img-fluid" alt="...">
+                <div class="texto_abajo carousel-caption d-md-block">
+                  <h5 class="resp_title">Ya empezo la reserva del nuevo tesla "Roadster"</h5>
+                  <p class="resp_text">La reserva ya esta disponible por $43.000 euros y a la venta saldra recien en Julio 2023</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/interiorteslaroadster.jpg" class="d-inline-block w-50 imgc" alt="...">
-                <div class="carousel-caption d-none d-md-block" style="color: black;">
-                  <h3>Se filtro el interior del nuevo Tesla</h3>
-                  <p>Asi lucira el interior del nuevo automovil de Tesla</p>
+                <div class="texto_abajo carousel-caption d-md-block">
+                  <h5 class="resp_title">Se filtro el interior del nuevo Tesla</h3>
+                  <p class="resp_text">Asi lucira el interior del nuevo automovil de Tesla </p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/tesla-supercharger.jpg" class="d-inline-block w-50 imgc" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Nuevos supercargadores alrededor del Reino Unido</h3>
-                  <p>Se desplegaron nuevos supercargadores todo alrededor del Reino Unido y la primer semana es de uso <b>gratuito</b> </p>
+                <div class="texto_abajo carousel-caption d-md-block">
+                  <h5 class="resp_title">Nuevos supercargadores alrededor del Reino Unido</h3>
+                  <p class="resp_text">Se desplegaron nuevos supercargadores todo alrededor del Reino Unido y la primer semana es de uso <b>gratuito</b> </p>
                 </div>
               </div>
             </div>
@@ -101,6 +102,6 @@
       </footer>
       
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      </body>
 </html>
