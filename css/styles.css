@@ -9,7 +9,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -7511,10 +7510,10 @@ textarea.form-control-lg {
 
 .imgh2 {
   width: 90%;
-  height: 40%; }
+  height: 30%; }
 
 .imgh3 {
-  width: 70%;
+  width: 60%;
   height: 100%; }
 
 .borde_arriba {
@@ -7541,8 +7540,7 @@ textarea.form-control-lg {
 
 .imgc {
   margin-left: 25%;
-  margin-top: 3%;
-  border-radius: 10px; }
+  margin-top: 3%; }
 
 @media screen and (max-width: 767px) {
   .desaparecer {
@@ -7631,93 +7629,3 @@ textarea.form-control-lg {
     right: auto; }
   .right-2 {
     left: 0%; } }
-
-.resp_title {
-  font-size: 2vw; }
-
-.resp_text {
-  font-size: 1vw; }
-
-@media screen and (max-width: 767px) {
-  .imgh2 {
-    width: 15vw;
-    height: 8vw;
-    justify-content: center; } }
-
-.example {
-  font-size: 1vmax; }
-
-body {
-  background: #F5F1EE;
-  font-family: 'Roboto', sans-serif; }
-
-.card {
-  width: 100%;
-  border-radius: 10px; }
-
-.card-img-top {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px; }
-
-span.text-muted {
-  font-size: 12px; }
-
-small.text-muted, .text-muted.small {
-  font-size: 8px; }
-
-h5.mb-0, .mb-0.h5 {
-  font-size: 1rem; }
-
-small.ghj, .ghj.small {
-  font-size: 9px; }
-
-.mid {
-  background: #ECEDF1; }
-
-h6.ml-1, .ml-1.h6 {
-  font-size: 13px; }
-
-small.key, .key.small {
-  text-decoration: underline;
-  font-size: 9px;
-  cursor: pointer; }
-
-.btn-danger {
-  color: #FFCBD2; }
-
-.btn-danger:focus {
-  box-shadow: none; }
-
-small.justify-content-center, .justify-content-center.small {
-  font-size: 9px;
-  cursor: pointer;
-  text-decoration: underline; }
-
-@media screen and (max-width: 600px) {
-  .col-sm-4 {
-    margin-bottom: 50px; } }
-
-.borde_gradiente2 {
-  -webkit-box-shadow: 0 0 30px 20px #ffffff;
-  box-shadow: 0 0 30px 20px #ffffff; }
-
-.prod_box {
-  margin-top: 8vh; }
-
-.footer {
-  margin-top: 15vh; }
-
-.forms_cto {
-  background-color: #3e4142; }
-
-@media all and (max-width: 767px) {
-  .imgh2 {
-    display: block;
-    margin: 0 auto;
-    height: fit-content; } }
-
-@media all and (max-width: 767px) {
-  .imgh3 {
-    display: block;
-    margin: 0 auto;
-    max-width: 30%; } }
